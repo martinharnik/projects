@@ -18,6 +18,9 @@ conversation = [
     ("LOréal GPT", "'+1 gesture'? Tell me more about this intriguing strategy."),
 ]
 
+# Add the title
+st.title("Loreal GPT")
+
 # Display the conversation with delay and typing effect
 for role, message in conversation:
     type_message(role, message)
