@@ -26,5 +26,7 @@ time.sleep(2)
 
 # Display the conversation with delay and typing effect
 for role, message in conversation:
+    st.markdown(f"**{role}:**")
+    time.sleep(1)  # Short delay before typing starts
     type_message(role, message)
     time.sleep(3)
