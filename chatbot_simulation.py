@@ -22,7 +22,7 @@ conversation = [
 st.title("Loreal GPT")
 
 # Initial delay before starting the conversation
-time.sleep(2)
+time.sleep(5)
 
 # Display the conversation with delay and typing effect
 for role, message in conversation:
