@@ -3,7 +3,6 @@ from sklearn.model_selection import TimeSeriesSplit, RandomizedSearchCV
 from sklearn.preprocessing import OneHotEncoder, TargetEncoder
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.pipeline import Pipeline
 import statistics
 import numpy as np
 import os
