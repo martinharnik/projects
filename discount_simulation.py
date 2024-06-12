@@ -90,5 +90,5 @@ if predict_button:
     discounted_price = item_price * (1 - optimal_discount / 100)
     
     st.write(f"### Item Price (EUR): {item_price:.2f}")
-    st.write(f"### Optimal Discount: {optimal_discount:.2f}%")
+    st.write(f"### Optimal Discount: {optimal_discount:.2f} %")
     st.write(f"### Discounted Price (EUR): {discounted_price:.2f}")
