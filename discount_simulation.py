@@ -57,7 +57,7 @@ st.markdown(
 )
 
 # Display the Siemens logo
-st.image('sag_logo.png', width=175)
+st.image('logo.png', width=175)
 
 # Title of the application
 st.markdown('<div class="title">Discount Calculator</div>', unsafe_allow_html=True)
